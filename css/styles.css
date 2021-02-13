@@ -10,8 +10,8 @@ font-family: 'Roboto', sans-serif; */
 
 body {
   height: 100vh;
-  background-color: #cfb49c;
-  color: rgb(49, 51, 51);
+  background-color: #30302f;
+  color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
   overflow: hidden;
   /* background-image: url("../images/island2.jpg");
@@ -59,7 +59,7 @@ body {
 }
 .navbar {
   font-family: "Pacifico", cursive;
-  color: white;
+  color: #dfb18c;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,16 +78,15 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #dfb18c;
   font-size: 20px;
 }
 
 a:hover {
-  color: white;
-  border-bottom: 2px solid white;
+  color: #dfb18c;
+  border-bottom: 2px solid #dfb18c;
 }
 
 span {
-  color: white;
-
+  color: #dfb18c;
 }
