@@ -1,0 +1,37 @@
+body,
+html {
+  color: aliceblue;
+}
+
+.navbar {
+  display: flex;
+  background-image: url("../images/island2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  margin-left: 450px;
+}
+
+li {
+  display: inline;
+  margin-left: 29px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+
+
+}
+a:hover {
+  border-bottom: 2px solid white;
+
+}
