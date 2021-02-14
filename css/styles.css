@@ -13,7 +13,7 @@ body {
   background-color: #30302f;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
   /* background-image: url("../images/island2.jpg");
   background-position: center;
   background-size: cover;
@@ -23,17 +23,15 @@ body {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 
 .main-intro {
   display: flex;
   flex-direction: column;
   padding: 0px 40px;
-  /* justify-content: center; */
   height: 100%;
   width: 40%;
-  /* background-color: blue; */
 }
 .main-intro .intro {
   margin-top: 150px;
@@ -50,7 +48,7 @@ body {
   width: 60%;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   overflow: hidden;
-  margin: 20px;
+  margin: 10px 20px;
 }
 .main-image img {
   width: 100%;
@@ -89,4 +87,39 @@ a:hover {
 
 span {
   color: #dfb18c;
+}
+
+.accomodations-container {
+  margin: 100px;
+}
+
+.accomodations-container .intro {
+  margin-bottom: 25px;
+}
+.rooms-container{
+  margin: 40px;
+}
+.rooms .card {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.rooms .image img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.rooms .description p {
+  padding: 20px 0px;
+}
+
+.rooms .description hr {
+  background-color: grey;
+  padding: 1px;
+  border: none;
+}
+
+.room-description {
+  font-size: 12px;
 }
