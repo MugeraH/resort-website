@@ -74,13 +74,13 @@ li {
   list-style: none;
 }
 
-a {
+.nav-links a {
   text-decoration: none;
   color: #dfb18c;
   font-size: 20px;
 }
 
-a:hover {
+.nav-links a:hover {
   color: #dfb18c;
   border-bottom: 2px solid #dfb18c;
 }
@@ -161,4 +161,57 @@ span {
   flex-direction: column;
   justify-content: center;
   margin-top: 15px;
+}
+
+.contacts-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin: 40px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.contacts-container .image {
+  width: 50%;
+}
+.contacts-container .image img {
+  width: 100%;
+}
+.contacts-container .contacts {
+  display: flex;
+  flex-direction: column;
+
+  margin: 30px;
+}
+.contacts-container .contacts img {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.contacts-container .contacts h2 {
+  margin-bottom: 10px;
+}
+.contacts-container .contacts p {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.contacts a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.facebook {
+  color: #3a589b;
+}
+.twitter {
+  color: #56def3;
+}
+.instagram {
+  color: #d44b89;
+}
+.gmail {
+  color: #f04336;
 }
